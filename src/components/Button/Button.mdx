@@ -1,0 +1,25 @@
+import { Meta, Story, Canvas, ArgsTable } from "@storybook/blocks";
+import * as ButtonStories from "./Button.stories";
+
+{/* Es la abreviacion para no colocar "Components/Button" */}
+<Meta of={ButtonStories} />
+
+# Buttons
+
+## Imports
+
+```js
+import { Button } from "my-library";
+```
+
+## Usage
+
+<Canvas withSource="open">
+  <Story of={ButtonStories.Default} />
+  <Story of={ButtonStories.Primary} />
+  <Story of={ButtonStories.Secondary} />
+</Canvas>
+
+## Props
+
+<ArgsTable of={ButtonStories.Primary} />
