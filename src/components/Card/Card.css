@@ -1,0 +1,73 @@
+/* Clases para modo LIGHT */
+.cardSuperheroe {
+  /* background-color: var(--material-theme-ref-neutral-neutral50); */
+  background-color: chocolate;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 400px;
+}
+
+.imageCard {
+  flex: 1;
+  align-self: stretch;
+  object-fit: cover;
+}
+
+.content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.tituloSuperheroe {
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+  /* color: var(--material-theme-white); */
+  color: #fff;
+  align-self: stretch;
+  margin-bottom: 20px;
+}
+
+.descripcion {
+  max-width: 347px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Clases para modo DARK */
+/* .cardSuperheroe-dark {
+  background-color: var(--material-theme-sys-light-background);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 400px;
+}
+
+.tituloSuperheroe-dark {
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--material-theme-sys-light-on-background);
+  align-self: stretch;
+  margin-bottom: 20px;
+}
+
+.descripcion-dark {
+  max-width: 347px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--material-theme-sys-light-on-background);
+  margin-bottom: 20px;
+} */
