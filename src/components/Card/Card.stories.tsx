@@ -20,5 +20,11 @@ export const Card: Story = {
     description:
       "Es un superheroe ficticio que aparecio por primera vez en los comics estadounidenses publicados por DC Comics.",
     children: <Button {...ButtonStories.Primary.args} />
+  },
+  parameters: {
+    docs: {
+      canvas: { sourceState: 'shown' },
+      source: { language: 'tsx' }
+    }
   }
 };
